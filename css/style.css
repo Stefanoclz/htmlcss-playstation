@@ -4,6 +4,18 @@
     padding: 0;
 }
 
+/* utilities */
+
+.SCradius {
+    border-radius: 15px;
+}
+
+
+
+/* /utilites */
+
+/* inizio jumbo */
+
 .jumbo {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -12,6 +24,13 @@
     padding-bottom: 5%;
 }
 
-.jumbo h1 {
-    font-size: 30px;
+h1 {
+    font-size: 40px;
+}
+
+/* /jumbo */
+
+#console p {
+    font-size: 20px;
+    font-weight: 500;
 }
