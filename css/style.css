@@ -4,3 +4,14 @@
     padding: 0;
 }
 
+.jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 40%;
+    padding-bottom: 5%;
+}
+
+.jumbo h1 {
+    font-size: 30px;
+}
