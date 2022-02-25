@@ -10,7 +10,17 @@
     border-radius: 15px;
 }
 
+.bg-grey {
+    background-color: rgba(128, 128, 128, 0.644);
+}
 
+.bg-Lgrey {
+    background-color: lightgray;
+}
+
+.bg-dark-blue {
+    background-color: #161c3b;
+}
 
 /* /utilites */
 
@@ -46,3 +56,8 @@ h1 {
     background-position: center;
     background-size: cover;
 }
+
+/* fine main game */
+
+/* inizio ps plus */
+
