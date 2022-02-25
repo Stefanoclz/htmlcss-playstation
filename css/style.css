@@ -53,6 +53,10 @@ h1 {
 
 /* /console */
 
+#explore a {
+    text-decoration: none;
+}
+
 /* inizio main game */
 
 #mainGame {
@@ -61,7 +65,14 @@ h1 {
     background-size: cover;
 }
 
+#mainGame h1 {
+    font-size: 60px;
+}
+
 /* fine main game */
 
-/* inizio ps plus */
+footer a {
+    text-decoration: none;
+    color: white;
+}
 
