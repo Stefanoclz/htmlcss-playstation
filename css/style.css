@@ -30,7 +30,19 @@ h1 {
 
 /* /jumbo */
 
+/* inizio console */
+
 #console p {
     font-size: 20px;
     font-weight: 500;
+}
+
+/* /console */
+
+/* inizio main game */
+
+#mainGame {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
 }
