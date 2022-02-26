@@ -116,6 +116,7 @@ footer a {
 
 .dropdown:hover .dropdown-menu {
     display: flex;
+    border: 0;
 }
 
 #consoleImg img:hover{
@@ -138,7 +139,7 @@ footer a {
     outline: 2px solid #cd3d0f;
 }
 
-button:hover {
+.rightNav button:hover {
     border: 2px solid white;
     outline: 2px solid black;
 }
@@ -184,4 +185,18 @@ button:hover {
 
 footer a:hover {
     color: white;
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 20px;
+    }
 }
