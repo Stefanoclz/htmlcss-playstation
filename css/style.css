@@ -94,11 +94,18 @@ h1 {
     background-size: cover;
 }
 
-#mainGame h1 {
+/* #mainGame h1 {
     font-size: 60px;
-}
+} */
 
 /* fine main game */
+
+/* inizio new games */
+
+#newGames a {
+    text-decoration: none;
+    color: white;
+}
 
 footer a {
     text-decoration: none;
@@ -146,21 +153,21 @@ button:hover {
     outline: 2px solid #cd3d0f;
 }
 
-#newGames img:hover {
-    animation-name: pulse;
+#newGames div img:hover {
+    animation-name: disk;
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-@keyframes pulse {
+@keyframes disk {
     from {
-        width: 100%;
+        border-radius: 0%;
         transform: rotate(0deg);
     }
 
     to {
-        width: 80%;
+        border-radius: 50%;
         transform: rotate(360deg);
     }
 }
