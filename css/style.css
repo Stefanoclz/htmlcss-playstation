@@ -33,6 +33,18 @@
 
 /* /utilites */
 
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    left: 0;
+    padding: 0;
+    min-width: 100%;
+    justify-content: center;
+}
+
+
 /* inizio jumbo */
 
 .jumbo {
@@ -44,16 +56,16 @@
 }
 
 /* .jumbo h1 {
-    font-size: 65px;
+    font-size: 4rem;
 }
 
 .jumbo p {
-    font-size: 20px;
-} */
+    font-size: 1.2rem;
+}
 
 h1 {
     font-size: 40px;
-}
+} */
 
 /* /jumbo */
 
@@ -100,9 +112,21 @@ footer a {
 }
 
 #consoleImg img:hover{
+    transition: opacity 1s linear;
     opacity: 1;
 }
 
 #consoleImg .row:active {
     border-bottom: 1px solid blue;
+}
+
+#botJumbo img:hover {
+    transition: transform 1s, border 0.5s;
+    transform: translateY(-20px);
+    border: 2px solid blue;
+}
+
+.jumbo a:hover {
+    box-shadow: 1px 1px 0px 0px black inset;
+    margin: 1px;
 }
