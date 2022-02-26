@@ -44,7 +44,6 @@
     justify-content: center;
 }
 
-
 /* inizio jumbo */
 
 .jumbo {
@@ -53,6 +52,7 @@
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 5%;
+    margin-top: 100px;
 }
 
 /* .jumbo h1 {
@@ -127,6 +127,54 @@ footer a {
 }
 
 .jumbo a:hover {
-    box-shadow: 1px 1px 0px 0px black inset;
-    margin: 1px;
+    border: 2px solid black;
+    outline: 2px solid #cd3d0f;
+}
+
+button:hover {
+    border: 2px solid white;
+    outline: 2px solid black;
+}
+
+.bg-primary:hover {
+    border: 2px solid white;
+    outline: 2px solid #2d64e6;
+}
+
+#mainGame a:hover {
+    border: 2px solid black;
+    outline: 2px solid #cd3d0f;
+}
+
+#newGames img:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pulse {
+    from {
+        width: 100%;
+        transform: rotate(0deg);
+    }
+
+    to {
+        width: 80%;
+        transform: rotate(360deg);
+    }
+}
+
+#PSplus a:hover {
+    border: 1px solid black;
+    outline: 2px solid lightgray;
+}
+
+#PSnow a:hover {
+    border: 2px solid #161c3b;
+    outline: 2px solid white;
+}
+
+footer a:hover {
+    color: white;
 }
