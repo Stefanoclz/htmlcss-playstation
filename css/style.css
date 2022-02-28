@@ -32,9 +32,20 @@
     background-color: #cd3d0f;
 }
 
+.static {
+    position: static;
+}
+
+.drop-absolute {
+    left: 0;
+    padding: 0;
+    min-width: 100%;
+    justify-content: center;
+}
+
 /* /utilites */
 
-.dropdown {
+/* .dropdown {
     position: static;
 }
 
@@ -43,7 +54,7 @@
     padding: 0;
     min-width: 100%;
     justify-content: center;
-}
+} */
 
 .dropdown-burger {
     display: none;
