@@ -95,9 +95,6 @@ h1 {
     background-size: cover;
 }
 
-/* #mainGame h1 {
-    font-size: 60px;
-} */
 
 /* fine main game */
 
@@ -111,6 +108,14 @@ h1 {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+/* / new games */
+
+/* sconti */
+
+#sconti img {
+    transition: transform 0.6s, border-radius 0.6s;
 }
 
 /*********** hover *************/
@@ -187,6 +192,11 @@ footer a:hover {
     color: white;
 }
 
+
+#sconti img:hover {
+    transform: scale(0.9);
+    border-radius: 25px;
+}
 
 /************* Media Query ***********/
 
