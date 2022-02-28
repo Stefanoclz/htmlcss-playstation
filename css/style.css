@@ -45,6 +45,23 @@
     justify-content: center;
 }
 
+.dropdown-burger {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: white;
+    max-width: 120px;
+}
+
+.dropdown-burger li {
+    margin-bottom: 10px;
+}
+
+.dropdown-burger a {
+    text-decoration: none;
+    color: black;
+}
+
 /* inizio jumbo */
 
 .jumbo {
@@ -122,6 +139,14 @@ footer a {
 
 .dropdown:hover .dropdown-menu {
     display: flex;
+}
+
+.navbar-toggler:hover .dropdown-burger {
+    display: block;
+}
+
+.dropdown-burger a:hover {
+    text-decoration: underline;
 }
 
 #consoleImg img:hover{
